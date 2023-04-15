@@ -107,7 +107,7 @@ em {
   justify-content: end;
   align-items: center;
   cursor: pointer;
-  border: solid 1px var(--colorBlack);
+  border: solid 1px;
   padding: 1%;
 }
 
@@ -333,25 +333,7 @@ em {
 
 .body--darkMode {
   background-color: var(--colorBlueGreenDark);
-}
-
-.author__name--darkMode,
-.author__job--darkMode,
-.presentation__text--darkMode,
-.contact__text--darkMode {
-  color: var(--colorGrey);
-}
-
-.containerLightNight__icon--darkMode {
-  color: var(--colorGrey);
-}
-
-.containerLightNight--darkMode {
-  border-color: var(--colorGrey);
-}
-
-.skills__container__picture--darkMode {
-  border-color: var(--colorGreyOpacity);
+  color : var(--colorGrey)
 }
 
 /********************* RESPONSIVE WEB DESIGN *********************/

@@ -52,11 +52,11 @@ titleDynamic();
 
 // ********** ANIMATION PHOTO PROFIL ********** //
 
-//! Au 'clic' sur l'image, la photo change
+//! Au  survol de l'image, la photo change
 
 const presentationPicture = document.querySelector('.presentation__picture');
 
-presentationPicture.addEventListener('click', function(){
+presentationPicture.addEventListener('mouseover', function(){
 
     if(presentationPicture.src == "https://williammbakop.github.io/portfolio/images/photo_profil.jpg"){
         presentationPicture.src="https://williammbakop.github.io/portfolio/images/picture-logo.png";        

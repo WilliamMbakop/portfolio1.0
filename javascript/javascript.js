@@ -48,9 +48,10 @@ let presentationPicture = document.querySelector('.presentation__picture');
 
 presentationPicture.addEventListener('mouseenter', function(){
 
-    if(presentationPicture.src == "images/photo_profil.jpg"){
-        presentationPicture.src="images/picture-logo.png";        
+    if(presentationPicture.src == "https://williammbakop.github.io/portfolio/images/photo_profil.jpg"){
+        presentationPicture.src="https://williammbakop.github.io/portfolio/images/picture-logo.png";        
     }else{
-        presentationPicture.src="images/photo_profil.jpg";
+        presentationPicture.src="https://williammbakop.github.io/portfolio/images/photo_profil.jpg";
     }
 });
+

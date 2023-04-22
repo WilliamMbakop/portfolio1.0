@@ -164,6 +164,7 @@ em {
   width: 100px;
   margin: 5px 17px 0 0;
   float: left;
+  cursor: pointer;
 }
 
 @keyframes floutter {

@@ -46,7 +46,7 @@ for (const navbarItem of navbarItems) {
 
 let presentationPicture = document.querySelector('.presentation__picture');
 
-presentationPicture.addEventListener('mouseenter', function(){
+presentationPicture.addEventListener('click', function(){
 
     if(presentationPicture.src == "https://williammbakop.github.io/portfolio/images/photo_profil.jpg"){
         presentationPicture.src="https://williammbakop.github.io/portfolio/images/picture-logo.png";        

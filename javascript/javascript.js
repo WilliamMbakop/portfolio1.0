@@ -1,36 +1,41 @@
-// ********** MODE SOMBRE ********** //
-let containerLightNight = document.querySelector('.containerLightNight');
+// ********** MODE SOMBRE/CLAIR ********** //
+//! Mise en place du mode sombre/clair  :
+const containerLightNight = document.querySelector('.containerLightNight');
 
 containerLightNight.addEventListener('click', function(){
-    let body = document.querySelector('body');
+    const body = document.querySelector('body');
     body.classList.toggle("body--darkMode");
 });
 
 // ********** CHANGEMENT DU TITLE ********** //
-let navbarItems = document.querySelectorAll('.navbar__items');
-let title = document.querySelector('title');
+//! Quand on clique sur un élement du menu, le titre de la page ("title") s'actualise automatiquement :
+function titleDynamic () {
+const navbarItems = document.querySelectorAll('.navbar__items');
+const title = document.querySelector('title');
+const navbarItemsTextContent = ['Présentation', 'Technologies', 'Projets', 'Contact'];
 
 for (const navbarItem of navbarItems) {
 
     switch (navbarItem.textContent) {
-        case 'Présentation':
+        case navbarItems[0].textContent:
             navbarItem.addEventListener('click',function(){
-                title.textContent='Présentation';
+                title.textContent = navbarItemsTextContent[0];
+
             })            
             break;
-        case 'Technologies':
+        case navbarItems[1].textContent:
             navbarItem.addEventListener('click',function(){
-                title.textContent='Technologies';
+                title.textContent = navbarItemsTextContent[1];
             })            
             break;
-         case 'Projets':
+         case navbarItems[2].textContent:
             navbarItem.addEventListener('click',function(){
-                title.textContent='Projets';
+                title.textContent = navbarItemsTextContent[2];
             })            
             break;
-         case 'Contact':
+         case navbarItems[3].textContent:
             navbarItem.addEventListener('click',function(){
-                title.textContent='Contact';
+                title.textContent = navbarItemsTextContent[3];;
             })            
             break;        
     
@@ -41,10 +46,15 @@ for (const navbarItem of navbarItems) {
             break;
     }
 }
+}
+
+titleDynamic();
 
 // ********** ANIMATION PHOTO PROFIL ********** //
 
-let presentationPicture = document.querySelector('.presentation__picture');
+//! Au 'clic' sur l'image, la photo change
+
+const presentationPicture = document.querySelector('.presentation__picture');
 
 presentationPicture.addEventListener('click', function(){
 

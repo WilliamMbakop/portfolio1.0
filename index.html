@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site personnel et portfolio de William Mbakop, développeur web Symfony">
+    <meta name="description" content="Site personnel et portfolio de William Mbakop, développeur web Php & Symfony">
     <meta name="author" content="William Mbakop">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -11,13 +12,13 @@
     <!--POLICES-->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=abel:400" rel="stylesheet" />
-     <!--ICONES -->
+    <!--ICONES -->
     <script src="https://kit.fontawesome.com/5e2be7f164.js" crossorigin="anonymous"></script>
-     <!--JAVASCRIPT -->    
+    <!--JAVASCRIPT -->
     <script src="javascript/javascript.js" defer></script>
-    <script src="javascript/module-firstScreen.js" defer></script>
-    <script src="javascript/module-newsletter.js" defer></script>
-    <script src="javascript/app.js" defer></script>
+    <!-- <script src="javascript/module-firstScreen.js" defer></script> -->
+    <!-- <script src="javascript/module-newsletter.js" defer></script> -->
+    <!-- <script src="javascript/app.js" defer></script> -->
 
     <title>William Mbakop, développeur web - site personnel</title>
 </head>
@@ -26,12 +27,14 @@
     <div class="containerLightNight">
         <i class="fa-solid fa-lightbulb containerLightNight__icon"> </i>
     </div>
+    <!--
     <form class="formNewsletter formNewsletterHidden">
         <i class="fa-solid fa-xmark formNewsletter__buttonClose"></i>
         <p class="formNewsletter__textContent">Restez informés des dernières nouveautés</p>
         <input type="email" class="formNewsletter__input" id="email" value="" placeholder="Renseignez votre email ici.">
         <button type="submit" class="formNewsletter__buttonSubmit">valider</button>
     </form>
+
 
     <aside class="firstScreen">
                 <img src="../portfolio/images/photo_profil.jpg" alt="logo" class="logo">
@@ -40,67 +43,82 @@
             Si vous êtes un recruteur, je vous invite à me contacter.   <strong> Bonne visite ! </strong></p>
         <p class="firstScreen__enter">Entrez</p>
     </aside>
-    
-    <div class="body__container displaynone">
+    -->
+
+    <div class="body__container <!--displaynone-->">
         <header class="header" id="topPage">
-            <nav class="navbar">              
+            <nav class="navbar">
                 <ul class="navbar__list">
-                    <li class="navbar__items"><a class= "navbar__link" href="#presentation">présentation</a></li>
-                    <li class="navbar__items"><a class= "navbar__link" href="#skills">technologies</a></li>
-                    <li class="navbar__items"><a class= "navbar__link" href="#achievement">projets</a></li>
-                    <li class="navbar__items"><a class= "navbar__link" href="#contact">contact</a></li>
+                    <li class="navbar__items"><a class="navbar__link" href="#presentation">présentation</a></li>
+                    <li class="navbar__items"><a class="navbar__link" href="#skills">technologies</a></li>
+                    <li class="navbar__items"><a class="navbar__link" href="#achievement">projets</a></li>
+                    <li class="navbar__items"><a class="navbar__link" href="#contact">contact</a></li>
                 </ul>
                 <div class="navbar__author">
-                <h1 class="author__name"> William Mbakop </h1> 
-                <h2 class="author__job">-<span class="author__job-speciality">Développeur web</span>-</h2>
-            </div>
+                    <h1 class="author__name"> William Mbakop </h1>
+                    <h2 class="author__job">-<span class="author__job-speciality">Développeur web Php | symfony</span>-
+                    </h2>
+                </div>
             </nav>
         </header>
         <main>
             <section class="category presentation" id="presentation">
-                    <h1 class="title presentation__title">présentation</h1>
-                    <hr >
-                    <img class="presentation__picture" src="images/photo_profil.jpg" alt="photo-profil">
-                    <p class="presentation__text">
-                        Curieux de nature et passionné par le monde des nouvelles technologies, j'ai décidé de faire le pas vers la réalisation d'un projet 
-                        qui me tient à coeur : devenir <strong>Développeur Web</strong>. 
-                     </p> 
-        
-                     <p class="presentation__text">
-                        C'est à ce titre que je suis une formation en téléprésentiel du 27/03/23 au 11/09/23,
-                        à l'école <a href="https://oclock.io/formations/developpeur-web" target="_blank" rel="noopener noreferrer"> <strong>O'clock</strong></a>. 
-                        Comme cérise sur le gâteau, cette formation se terminera par un stage non rémunéré, d'une durée de 2 à 6 mois. Pour ma part, je préfère une 
-                        période de six mois ! C'est plutôt intéressant non ? Bien entendu, je reste ouvert à une proposition de stage d'une durée plus courte.
-                        <br><br>Petit aparté sur l'école O'clock : Au delà de l'enseignement technique des différentes technologies, il nous 
-                        est enseigné des compétences transverses telles que :  <strong>apprendre à apprendre</strong>, savoir chercher l'information dont on a besoin. 
-                    </p>
-        
-                    <p class="presentation__text">
-                        <strong>Pourquoi le développement Web ? </strong> <br> J'apprécie particulièrement l'organisation et la rigueur que nécessite ce métier, tout comme le besoin d'apprendre 
-                        au quotidien de nouveaux concepts pour s'améliorer et rester à jour. Justement, sur ce dernier point,
-                        j'apprends tous les jours de nouvelles notions, quelles soient purement techniques ou en relation avec les "soft skills", et cela me plaît énormément.
-                    </p>
-        
-                    <p class="presentation__text">
-                        Vous l'avez compris au regard de ma photo de profil : je suis une personne joviale; J'aime le travail en équipe et je saurai contribuer 
-                        à la bonne humeur au sein de votre équipe. Ma dévise : <strong>"Qu'est ce que je peux faire aujourd'hui pour apporter du bonheur autour de moi ?"</strong>
-                    </p>
-        
-                    <p class="presentation__text">
-                        Parce que le développement web n'est qu'une partie de ma vie, quand je ne suis pas devant l'ordinateur, je profite de chaque seconde 
-                        pour ma famille et pratiquer mes hobbies : la photographie, la danse, les voyages, et un peu de sport".
-                    </p>
+                <h1 class="title presentation__title">présentation</h1>
+                <hr>
+                <img class="presentation__picture" src="images/photo_profil.jpg" alt="photo-profil">
+                <p class="presentation__text">
+                    Curieux de nature et passionné par le monde des nouvelles technologies, j'ai décidé de faire le pas
+                    vers la réalisation d'un projet
+                    qui me tient à coeur : devenir <strong>Développeur Web</strong>.
+                </p>
+
+                <p class="presentation__text">
+                    C'est à ce titre que je suis une formation en téléprésentiel du 27/03/23 au 11/09/23,
+                    à l'école <a href="https://oclock.io/formations/developpeur-web" target="_blank"
+                        rel="noopener noreferrer"> <strong>O'clock</strong></a>.
+                    Comme cérise sur le gâteau, cette formation se terminera par un stage non rémunéré, d'une durée de 2
+                    à 6 mois. Pour ma part, je préfère une
+                    période de six mois ! C'est plutôt intéressant non ? Bien entendu, je reste ouvert à une proposition
+                    de stage d'une durée plus courte.
+                    <br><br>Petit aparté sur l'école O'clock : Au delà de l'enseignement technique des différentes
+                    technologies, il nous
+                    est enseigné des compétences transverses telles que : <strong>apprendre à apprendre</strong>, savoir
+                    chercher l'information dont on a besoin.
+                </p>
+
+                <p class="presentation__text">
+                    <strong>Pourquoi le développement Web ? </strong> <br> J'apprécie particulièrement l'organisation et
+                    la rigueur que nécessite ce métier, tout comme le besoin d'apprendre
+                    au quotidien de nouveaux concepts pour s'améliorer et rester à jour. Justement, sur ce dernier
+                    point,
+                    j'apprends tous les jours de nouvelles notions, quelles soient purement techniques ou en relation
+                    avec les "soft skills", et cela me plaît énormément.
+                </p>
+
+                <p class="presentation__text">
+                    Vous l'avez compris au regard de ma photo de profil : je suis une personne joviale; J'aime le
+                    travail en équipe et je saurai contribuer
+                    à la bonne humeur au sein de votre équipe. Ma dévise : <strong>"Qu'est ce que je peux faire
+                        aujourd'hui pour apporter du bonheur autour de moi ?"</strong>
+                </p>
+
+                <p class="presentation__text">
+                    Parce que le développement web n'est qu'une partie de ma vie, quand je ne suis pas devant
+                    l'ordinateur, je profite de chaque seconde
+                    pour ma famille et pratiquer mes hobbies : la photographie, la danse, les voyages, et un peu de
+                    sport".
+                </p>
             </section>
             <section class="category skills" id="skills">
-                <h1 class="title skills__title">technologies</h1> 
+                <h1 class="title skills__title">technologies</h1>
                 <hr>
                 <div class="skills__container">
                     <img class="skills__container__picture" src="images/langages/techno-00.png" alt="Html5" title="Html5">
                     <img class="skills__container__picture" src="images/langages/techno-01.png" alt="Css3" title="Css3">
                     <img class="skills__container__picture" src="images/langages/techno-02.png" alt="Bootstrap" title="Bootstrap">
                     <img class="skills__container__picture" src="images/langages/techno-03.png" alt="Javascript" title="Javascript">
-                    <img class="skills__container__picture" src="images/langages/techno-05.png" alt="React" title="React">                    
                     <img class="skills__container__picture" src="images/langages/techno-04.png" alt="Php" title="Php">
+                    <img class="skills__container__picture" src="images/langages/techno-05.png" alt="Laravel" title="Laravel">
                     <img class="skills__container__picture" src="images/langages/techno-06.png" alt="Symfony" title="Symfony">
                     <img class="skills__container__picture" src="images/langages/techno-07.png" alt="Git" title="Git">
                     <img class="skills__container__picture" src="images/langages/techno-08.png" alt="Github" title="Github">
@@ -109,40 +127,55 @@
             <section class="category achievement" id="achievement">
                 <h1 class="title achievement__title">projets</h1>
                 <hr>
-                <div class="achievement__container achievement__container-left achievement__container-left-1">
-                    <p class="achievement__container__name">Expériences magiques</p>
-                    <p class="achievement__container__progress achievement__container__progress-left"> En cours...</p>
-                </div>
+                <a href="https://github.com/WilliamMbakop/experiences-magiques" target="_blank" rel="noopener noreferrer">
+                    <div class="achievement__container achievement__container-left achievement__container-left-1">
+                        <p class="achievement__container__name">Expériences magiques</p>
+                        <p class="achievement__container__progress achievement__container__progress-left"> En cours...
+                        </p>
+                    </div>
+                </a>
+                <!-- <a href="#" target="_blank" rel="noopener noreferrer"> -->
                 <div class="achievement__container achievement__container-right achievement__container-right-1">
                     <p class="achievement__container__name">Retro</p>
                     <p class="achievement__container__progress achievement__container__progress-right"> A venir...</p>
                 </div>
-                   
+                <!-- </a> -->           
+
             </section>
             <section class="category contact" id="contact">
                 <h1 class="title contact__title">contact</h1>
                 <hr>
-                <p class="contact__text"> Si vous avez pris du plaisir à parcourir mon portfolio, n'hésitez pas à me le faire savoir. Il en va de même si vous souhaitez
-                    partager avec moi, vos appréciations "constructives". Je suis ouvert à toute remarque intéressante qui me permettrait de m'améliorer.
-                Si vous êtes recruteur, n'oubliez pas : je recherche un stage ! Je serai tout à fait intéressé par une prise de contact de votre part.</p>
+                <p class="contact__text"> Si vous avez pris du plaisir à parcourir mon portfolio, n'hésitez pas à me le
+                    faire savoir. Il en va de même si vous souhaitez
+                    partager avec moi, vos appréciations "constructives". Je suis ouvert à toute remarque intéressante
+                    qui me permettrait de m'améliorer.
+                    Si vous êtes recruteur, n'oubliez pas : je recherche un stage ! Je serai tout à fait intéressé par
+                    une prise de contact de votre part.</p>
                 <p class="contact__text">
-                    Je vous invite à consulter mon profil <a href="https://www.linkedin.com/in/wmbakopt/" target="_blank" rel="noopener noreferrer"><em>LinkedIn</em></a> & 
-                    <a href="https://github.com/WilliamMbakop" target="_blank" rel="noopener noreferrer"> <em> Github </em></a>, ainsi qu'à parcourcir mon
-                    <a href="fichiers/CV_William_Mbakop.pdf" target="_blank" rel="noopener noreferrer"><em>C.V</em></a> afin d'en savoir plus sur moi.
+                    Je vous invite à consulter mon profil <a href="https://www.linkedin.com/in/wmbakopt/"
+                        target="_blank" rel="noopener noreferrer"><em>LinkedIn</em></a> &
+                    <a href="https://github.com/WilliamMbakop" target="_blank" rel="noopener noreferrer"> <em> Github
+                        </em></a>, ainsi qu'à parcourcir mon
+                    <a href="fichiers/CV_William_Mbakop.pdf" target="_blank" rel="noopener noreferrer"><em>C.V</em></a>
+                    afin d'en savoir plus sur moi.
                 </p>
             </section>
         </main>
-        <footer class="footer" >
+        <footer class="footer">
             <div class="footer__icons-credits">
                 <div class="container-icon">
-                    <a href="https://www.linkedin.com/in/wmbakopt/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-2x container__icon__picture" alt="icon-contact"></i></a>
-                    <a href="https://github.com/WilliamMbakop" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github fa-2x container__icon__picture" alt="icon-contact"></i></a>
-                    <a href="fichiers/CV_William_Mbakop.pdf" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf fa-2x container__icon__picture" alt="icon-contact"></i></a>
+                    <a href="https://www.linkedin.com/in/wmbakopt/" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-linkedin fa-2x container__icon__picture" alt="icon-contact"></i></a>
+                    <a href="https://github.com/WilliamMbakop" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-github fa-2x container__icon__picture" alt="icon-contact"></i></a>
+                    <a href="fichiers/CV_William_Mbakop.pdf" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-solid fa-file-pdf fa-2x container__icon__picture" alt="icon-contact"></i></a>
                 </div>
                 <p class="footer__credits"> ©WilliamMbakop-2023</p>
             </div>
-            <a href="#topPage"><i class="fa-sharp fa-solid fa-arrow-up fa-beat footer__iconTop"></i></a>   
+            <a href="#topPage"><i class="fa-sharp fa-solid fa-arrow-up fa-beat footer__iconTop"></i></a>
         </footer>
-</div>
+    </div>
 </body>
+
 </html>
